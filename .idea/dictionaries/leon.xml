@@ -3,6 +3,7 @@
     <words>
       <w>crossentropy</w>
       <w>dataset</w>
+      <w>filepath</w>
       <w>mnist</w>
       <w>preprocessing</w>
       <w>relu</w>

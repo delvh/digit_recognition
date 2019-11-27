@@ -109,7 +109,7 @@ model.fit(
     batch_size = 128,
     verbose = 1)
 
-model.save_weights()
+model.save_weights()  # TODO needs a filepath
 
 # Print the model's accuracy
 print(accuracy)
