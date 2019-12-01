@@ -1,13 +1,18 @@
 <component name="ProjectDictionaryState">
   <dictionary name="leon">
     <words>
+      <w>conv</w>
       <w>crossentropy</w>
       <w>dataset</w>
+      <w>dtype</w>
       <w>filepath</w>
+      <w>keras</w>
       <w>mnist</w>
       <w>preprocessing</w>
+      <w>regularizer</w>
       <w>relu</w>
       <w>softmax</w>
+      <w>tensorflow</w>
     </words>
   </dictionary>
 </component>
