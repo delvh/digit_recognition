@@ -12,6 +12,7 @@
       <w>regularizer</w>
       <w>relu</w>
       <w>softmax</w>
+      <w>tensorboard</w>
       <w>tensorflow</w>
     </words>
   </dictionary>
