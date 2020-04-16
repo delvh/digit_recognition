@@ -152,6 +152,7 @@ def predict_digit_probability (imagesArray, batch_size = 32, verbose = 0):
 
 
 if __name__ == "__main__":
-    train_model(*data_preprocessing(), epochs = 30)
-    # train_data, test_data, train_labels, test_labels = data_preprocessing()
+    # train_model(*data_preprocessing(), epochs = 30)
+    train_data, test_data, train_labels, test_labels = data_preprocessing()
     # train_model(train_data, test_data, train_labels, test_labels, 30) is a valid alternative
+    print(predict_digit(test_data))
