@@ -8,12 +8,15 @@
       <w>filepath</w>
       <w>keras</w>
       <w>mnist</w>
+      <w>overfitting</w>
       <w>preprocessing</w>
       <w>regularizer</w>
       <w>relu</w>
       <w>softmax</w>
+      <w>tanh</w>
       <w>tensorboard</w>
       <w>tensorflow</w>
+      <w>tflearn</w>
     </words>
   </dictionary>
 </component>
