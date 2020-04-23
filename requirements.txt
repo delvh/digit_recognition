@@ -17,7 +17,7 @@ backports.weakref==1.0.post1
 beautifulsoup4==4.7.1
 bkcharts==0.2
 black==19.3b0
-bleach==3.1.0
+bleach==3.1.4
 bokeh==1.2.0
 boto==2.49.0
 bs4==0.0.1
@@ -180,7 +180,7 @@ sympy==1.4
 tables==3.5.2
 tblib==1.4.0
 tensorboard==1.14.0
-tensorflow==1.14.0
+tensorflow==1.15.2
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
 terminado==0.8.2
