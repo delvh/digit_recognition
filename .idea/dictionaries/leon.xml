@@ -1,14 +1,21 @@
 <component name="ProjectDictionaryState">
   <dictionary name="leon">
     <words>
+      <w>abcdefghijklmnopqrstuvwxyz</w>
+      <w>arxiv</w>
       <w>conv</w>
       <w>crossentropy</w>
       <w>dataset</w>
       <w>dtype</w>
+      <w>evals</w>
       <w>filepath</w>
       <w>keras</w>
+      <w>logprob</w>
+      <w>lxml</w>
       <w>mnist</w>
+      <w>opensearch</w>
       <w>overfitting</w>
+      <w>pred</w>
       <w>preprocessing</w>
       <w>regularizer</w>
       <w>relu</w>
@@ -17,6 +24,7 @@
       <w>tensorboard</w>
       <w>tensorflow</w>
       <w>tflearn</w>
+      <w>totalresults</w>
     </words>
   </dictionary>
 </component>
