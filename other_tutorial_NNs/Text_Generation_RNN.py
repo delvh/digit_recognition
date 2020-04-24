@@ -1,5 +1,6 @@
 import os
 import random
+from zipfile import ZipFile
 
 import numpy as np
 import requests
@@ -58,17 +59,17 @@ def fetch_all():
             yield page
 
 
-DOWNLOAD_FILENAME = 'arxiv_abstracts.txt'
+ZIP_FILENAME = 'arxiv_abstracts.zip'
 
 
 def download_data():
-    if not os.path.isfile(DOWNLOAD_FILENAME):
-        with open(DOWNLOAD_FILENAME, 'w') as file_:
+    if not os.path.isfile(ZIP_FILENAME):
+        with ZipFile(ZIP_FILENAME, 'w') as zipFile:
             for abstract in fetch_all():
-                file_.write(abstract + '\n')
+                zipFile.write(abstract + '\n')
 
-    with open(DOWNLOAD_FILENAME) as file_:
-        data1 = file_.readlines()
+    with ZipFile(ZIP_FILENAME, 'r') as zipFile:
+        data1 = zipFile.read('arxiv_abstracts.txt')
 
     return data1
 
